@@ -235,9 +235,9 @@
 					
 					<ul class="myform">
 							
-						
+						<li><p> آدرس یا نام شرکت یا نام تجاری و یا شماره تماس را به وسیله دکمه های پائین وارد کنید . سپس دکمه جستجوی اطلاعات را لمس کنید . </p></li>
 							<li>
-							<input type = "text" name="search" id="echoField" class = "jQKeyboard form-control" placeholder=" آدرس یا نام شرکت یا نام تجاری و یا شماره تماس را به وسیله دکمه های پائین وارد کنید . سپس دکمه جستجوی اطلاعات را لمس کنید . " value="" />
+							<input type = "text" name="search" id="echoField" class = "jQKeyboard form-control" placeholder="   " value="" />
 							</li>
 						
 							
