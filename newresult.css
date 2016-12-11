@@ -1,0 +1,87 @@
+*{margin:0;padding:0;}
+
+body{font-family:tahoma;}
+
+#cls{clear:both;}
+li{list-style-type:none;}
+/*--------------------------------------------*/
+.myown{
+	width:90%;
+	text-align:right;
+	padding:2%;
+	margin:0 auto;
+}
+
+.header h2{
+	
+}
+
+.colitems{
+	margin-top:50px;
+	margin-bottom:50px;
+	border-bottom:1px dashed #789;
+}
+
+.left{float:left;width:20%;}
+.left img{width:70%;}
+.right{float:right;width:70%;}
+dl{background:#ffe;padding:5px;}
+dt{font-style:italic;border-top:1px dotted #345;margin-top:2px;}
+dd{}
+dt:first-child{border-top:none;}
+
+.mybutt{
+	margin:0 auto 5px auto;
+	border:none;
+	background:#af3;
+	padding:5px;
+	border-radius:10px;
+	text-align:center;
+	
+}
+
+dd a {
+	float:left;
+	border:none;
+	background:#af3;
+	padding:5px;
+	border-radius:10px;
+	text-align:center;
+	color:#345;
+	text-decoration:none;
+}
+
+.infotop a ,.info a{
+	color:#345;
+	background:#fa3;
+	padding:5px;
+	border-radius:10px;
+	text-align:center;
+	text-decoration:none;
+	margin-top:50px;
+}
+
+.founders{
+	margin-top:20px;
+	box-shadow:0 0 1px #789;
+	padding:5px;
+	border-radius:15px;
+}
+
+.colitemx{
+	
+}
+
+/*--------------------------------------------*/
+
+/*--------------------------------------------*/
+
+/*--------------------------------------------*/
+
+/*--------------------------------------------*/
+
+/*--------------------------------------------*/
+
+/*--------------------------------------------*/
+
+/*--------------------------------------------*/

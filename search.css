@@ -1,0 +1,164 @@
+*{margin:0;padding:0;}
+
+body{font-family:tahoma;}
+
+#cls{clear:both;}
+/*--------------------------------------------*/
+#mybody{
+	direction:rtl;
+	width:95%;
+}
+
+
+/*--------------------------------------------*/
+#myhead{}
+#myhead ul{}
+#myhead ul li{display:inline;margin-right:2%;}
+.thed{
+	float:left;
+	background:#af3;
+	color:#345;
+	padding:1%;
+	margin-left:1%;
+}
+#myhead ul li a{
+	text-decoration:none;
+	background:#af3;
+	color:#345;
+	padding:1%;
+	font-weight:bold;
+		transition: all 0.5s ease-in-out;
+		-webkit-transition: all 0.5 ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+	
+}
+#myhead ul li a:hover,#myhead ul li a:focus,#myhead ul li a:active{
+	box-shadow:5px 0 0 #345;
+	color:#fff;
+}
+
+/*--------------------------------------------*/
+#mypage{
+	margin-top:10%;
+}
+
+.myform li{
+	list-style-type:none;
+}
+
+.myinput{text-align:center;}
+.myinput input[type='text']{
+	width: 95%;
+	min-height: 35px;
+	text-align:right;
+	padding:5px;
+	border:none;
+	box-shadow:0 0 2px #345;
+		transition: all 0.6s ease-in-out;
+		-webkit-transition: all 0.6s ease-in-out;
+		-moz-transition: all 0.6s ease-in-out;
+		-o-transition: all 0.6s ease-in-out;
+}
+.myinput input[type='text']:hover,
+.myinput input[type='text']:focus,
+.myinput input[type='text']:active{
+	box-shadow:0 0 4px #789;
+}
+
+
+.sm-sub{
+	width:8.2em;
+	height:2.2em;
+	margin-bottom:15px;
+	margin-top:10px;
+	border:none;
+	box-shadow:inset 0 0 4px #345;
+	font-family:tahoma;
+	font-style:italic;
+	font-size:24px;
+	vertical-align:middle;
+	border-radius:15px;
+	background:#3af;
+	color:#fff;
+		transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+}
+.sm-sub:hover,.sm-sub:focus,.sm-sub:active{
+	border-radius:20px;
+	color:#456;
+	box-shadow:inset 0 0 4px #3af;
+	background:#eee;
+}
+
+/*--------------------------------------------*/
+#myfoot{}
+
+details {
+    display: block;
+}
+
+/*--------------------------------------------*/
+/*XXX-----------------------------------------*/
+#board{
+	direction:ltr;
+	margin:10px auto;
+	text-align:center;
+	width:90%;
+	box-shadow:0 0 13px 3px #345;
+	padding:1%;
+	border-radius:25px;
+}
+
+/*XXX-----------------------------------------*/
+#keyboard{
+	float:left;
+	width:65%;
+	text-align:right;
+}
+
+/*XXX-----------------------------------------*/
+#numpad{
+	float:right;
+	width:30%;
+	text-align:left;
+}
+
+/*XXX-----------------------------------------*/
+.key{
+	width:2.2em;
+	height:2.2em;
+	margin-bottom:5px;
+	border:none;
+	box-shadow:inset 0 0 2px #777;
+	font-family:tahoma;
+	font-weight:bold;
+	font-size:24px;
+	vertical-align:middle;
+	border-radius:50%;
+		transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+}
+.key:hover ,.key:focus ,.key:active{
+	border-radius:20px;
+	color:#456;
+	box-shadow:inset 0 0 4px #333;
+}
+
+.zero{
+	width:6.8em;
+	border-radius:15px;
+}
+
+#Space{width:15.5em;border-radius:15px;}
+#backsp{width:8.2em;border-radius:15px;}
+/*XXX-----------------------------------------*/
+/*--------------------------------------------*/
+
+/*--------------------------------------------*/
+
+/*--------------------------------------------*/
