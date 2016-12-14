@@ -29,7 +29,7 @@ function printContent(el){
 	document.body.innerHTML = printcontent;
 	document.body.innerHTML = restorepage;
 	window.focus();
-	window.print();
+	window.print(webContents.print({silent: true, printBackground: false}));
 	
 	
 	//window.focus();
